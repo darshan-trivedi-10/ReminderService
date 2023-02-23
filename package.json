@@ -1,0 +1,24 @@
+{
+  "name": "reminderservice",
+  "version": "1.0.0",
+  "description": "reminder service in airline booking system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reminder",
+    "service"
+  ],
+  "author": "darshan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "nodemailer": "^6.9.1",
+    "sequelize": "^6.28.2",
+    "sequelize-cli": "^6.6.0"
+  }
+}
